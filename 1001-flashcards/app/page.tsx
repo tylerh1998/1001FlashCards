@@ -79,8 +79,7 @@ export default function FlashcardApp() {
   return (
     <main className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-4 font-sans">
       <div className="mb-8 text-center">
-        <h1 className="text-3xl font-extrabold text-red-500 uppercase tracking-tighter">NFPA 1001 Flashcards</h1>
-        <p className="text-slate-400 mt-2 font-medium">Volunteer Fire Department Training</p>
+        <h1 className="text-3xl font-extrabold text-red-500 uppercase tracking-tighter">NFPA 1001 Level I Flashcards</h1>
       </div>
       
       {cards.length > 0 ? (
